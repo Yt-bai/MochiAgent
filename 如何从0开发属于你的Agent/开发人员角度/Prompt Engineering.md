@@ -66,5 +66,5 @@ Prompt会从记忆中取一部分内容放入本轮输入的Prompt里。
 
 **One-shot、Few-shot Prompting**
 
-**指令调优的技巧，比如融合CoT、Reflact、ReAct的思想等等，可能只是加一句话，也能引导LLM用我们期望的方式去推理思考，从而输出我们更期望的回答**
+**指令调优的技巧，比如融合CoT、Reflaction、Self-Critisim、ReAct的思想等等，可能只是加一句话，也能引导LLM用我们期望的方式去推理思考，从而输出我们更期望的回答**
 
