@@ -135,3 +135,22 @@ Zep / LangMem / mem0：偏“记忆层（memory layer）”——更常作为你
 
 <img width="1210" height="261" alt="image" src="https://github.com/user-attachments/assets/805866b7-ad69-4cce-ba7c-d5c34a8745c0" />
 
+Agent Frameworks主要负责的是Agent核心工作流中的“思考Thought环节”，起到编排、任务拆解与规划的作用。比如如何编排不同环节LLM的多次调用、如何管理状态和记忆、如何把状态编译进上下文、如何做多代理写作、对开源大模型的工程适配等等。
+
+代理框架=编排LLM调用+管理Agent状态，把一次任务拆解成多步（观察--规划--决策--行动--总结--再观察---），并且让Agent“有状态”地运行下去。
+
+### 关于Agent Frameworks选型，推荐阅读：
+
+#### 知乎Agent框架横向对比：https://zhuanlan.zhihu.com/p/1984725399767376336?utm_source=chatgpt.com
+
+#### Maxim AI 2025实用选型指南：https://www.getmaxim.ai/articles/top-5-ai-agent-frameworks-in-2025-a-practical-guide-for-ai-builders/?utm_source=chatgpt.com
+
+#### Langfuse开源Agent框架横评：https://langfuse.com/blog/2025-03-19-ai-agent-comparison?utm_source=chatgpt.com
+
+---
+
+# Agent Hosting & Serving
+
+<img width="1182" height="467" alt="image" src="https://github.com/user-attachments/assets/70a81479-c9f0-4874-b76c-ab9c8e1f4b19" />
+
+这其实是一个**未来展望**，希望未来Agent 能够像 LLM 一样，被部署成一个可通过 API 调用的线上服务！
