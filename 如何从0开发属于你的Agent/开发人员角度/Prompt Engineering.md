@@ -58,5 +58,13 @@ Prompt会从记忆中取一部分内容放入本轮输入的Prompt里。
 
 ### 四、User就是用户本轮的在线输入。
 
+---
 
+除了上述以外，还有很多调节Prompt的技巧，比如：
+
+**Transformer Softmax阶段的模型采样参数，Temperature、Top-p、Top-k**
+
+**One-shot、Few-shot Prompting**
+
+**指令调优的技巧，比如融合CoT、Reflact、ReAct的思想等等，可能只是加一句话，也能引导LLM用我们期望的方式去推理思考，从而输出我们更期望的回答**
 
