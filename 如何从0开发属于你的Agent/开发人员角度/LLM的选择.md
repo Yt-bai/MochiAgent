@@ -18,6 +18,12 @@
 
 ---
 
+一些帖子可供参考：
+
+知乎：https://zhuanlan.zhihu.com/p/1944817122900412165?utm_source=chatgpt.com
+
+Hugging Face：https://huggingface.co/open-llm-leaderboard?utm_source=chatgpt.com
+
 Letta官网的排名（更新于2026年2月）：https://leaderboard.letta.com/
 
 <img width="1162" height="875" alt="image" src="https://github.com/user-attachments/assets/c5d08680-8558-4bb9-bd82-da2512b6bbe9" />
