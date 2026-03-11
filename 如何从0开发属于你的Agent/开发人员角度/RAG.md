@@ -84,8 +84,12 @@ Retrieval-Augmented-Generation，在生成回答前，先从外部知识库中�
   - Multi-Query MQE 多查询扩展：把用户输入的Query改写成多个问题问法 → Dense → 与BM25融合 (RRF)
   - HyDE假设文档生成：先让LLM生成假设答案，再根据假设答案 → Dense → 与BM25融合 (RRF)
   - 关键词抽取/结构化约束：从自然语言提取实体/版本/时间/产品名
+
 • 关键词部分喂给 BM25（精确命中）
+
 • 完整语义句喂给 dense（语义召回）
+
+> **这个策略主要用在短Query以及同义语句容易改写/口语化Query/抽象Query中。**
 
 ---
 
