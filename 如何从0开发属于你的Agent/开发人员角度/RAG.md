@@ -32,7 +32,9 @@ Retrieval-Augmented-Generation，在生成回答前，先从外部知识库中�
 
 # RAG 的发展历程
 
-<img width="1302" height="852" alt="image" src="https://github.com/user-attachments/assets/d30bfc9e-3293-4010-a879-83f1fb443536" />
+
+<img width="1504" height="499" alt="image" src="https://github.com/user-attachments/assets/ba7879dd-344a-4df4-8bcd-de58b2ccdd19" />
+
 
 ---
 
