@@ -22,4 +22,26 @@
 
 ---
 
+# 什么是RAG？
+
+Retrieval-Augmented-Generation，在生成回答前，先从外部知识库中检索相关信息，然后把检索到的知识拼成Prompt上下文喂给大模型，让大模型能够生成更靠谱的回答。
+
+> **RAG分三个阶段，检索，召回增强（把检索到的知识进行筛选，按一定规则地拼成上下文），生成。**
+
+---
+
+# RAG 的发展历程
+
 <img width="1302" height="852" alt="image" src="https://github.com/user-attachments/assets/d30bfc9e-3293-4010-a879-83f1fb443536" />
+
+---
+
+# RAG 的核心工作流
+
+> **目前，RAG通常被封装成“RAG Tool”，以工具调用的方式嵌入Agent工作流。这样的好处在于，Agent要想添加RAG，只需要接入RAG的API接口，方便把RAG作为单独的外挂模块进行管理。**
+
+数据准备阶段（离线）+ 检索生成阶段（在线）
+
+
+<img width="1505" height="487" alt="image" src="https://github.com/user-attachments/assets/3b9a1e36-9970-4e99-9662-b37246a31c1c" />
+
