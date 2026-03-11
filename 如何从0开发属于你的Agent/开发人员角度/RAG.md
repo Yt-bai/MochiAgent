@@ -45,7 +45,8 @@ Retrieval-Augmented-Generation，在生成回答前，先从外部知识库中�
 数据准备阶段（离线）+ 检索生成阶段（在线）
 
 
-<img width="1505" height="487" alt="image" src="https://github.com/user-attachments/assets/3b9a1e36-9970-4e99-9662-b37246a31c1c" />
+<img width="1505" height="487" alt="image" src="https://github.com/user-attachments/assets/3b9a1e36-9970-4e99-9662-b37246a31c1c" 
+
 
 ---
 
