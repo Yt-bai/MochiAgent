@@ -79,7 +79,7 @@ Retrieval-Augmented-Generation，在生成回答前，先从外部知识库中�
 ---
 
 ### 3. Query侧扩展召回（也是召回的第一步，但不主要：在并行召回以外，触发一个“额外召回”）
-> 从用户输入Query侧发力，让Sparse Retrieval和Dense Retrieval都容易召回正确的结果，对Hybrid效果特别好！
+> 从用户输入Query侧发力，让Sparse Retrieval和Dense Retrieval都容易召回正确的结果，但是主要用在Dense Retrieval，对Hybrid效果特别好！
 
   - Multi-Query MQE 多查询扩展：把用户输入的Query改写成多个问题问法 → Dense → 与BM25融合 (RRF)
   - HyDE假设文档生成：先让LLM生成假设答案，再根据假设答案 → Dense → 与BM25融合 (RRF)
