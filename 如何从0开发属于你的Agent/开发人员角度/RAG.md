@@ -60,8 +60,8 @@ Retrieval-Augmented-Generation，在生成回答前，先从外部知识库中�
 
 ### 1. 动态路由 & 动态K Query-Aware Hybrid（召回动作发生前的规划）
 > 根据Query类型，让路由动态地调整不同检索策略
-  - 有错误码/ID/字段名/专有名词的Query：词面精确匹配最关键 → 提高 BM25 权重或增大𝐾𝑠（dense 可能把相近但不对的也捞进来）
-  - 口语化问句/语义不清晰/逻辑混乱/抽象问题的Query：提高Dense权重，语义匹配更关键 → 增大𝐾𝑑，必要时 Multi-Query/HyDE
+  - 有独立识别码/ID/字段名/专有名词的Query：词面精确匹配最关键 → 提高 BM25 权重或增大𝐾𝑠（dense 可能把相近但不对的也捞进来）
+  - 口语化问句/同义改写空间大/抽象问题的Query：提高Dense权重，语义匹配更关键 → 增大𝐾𝑑，必要时 Multi-Query/HyDE
   - 短 query：信息不足、容易漏召 → 增大 K 或触发 HyDE/Multi-Query
   - 长 query：包含多意图、容易稀释关键词 → 抽关键子句分解检索再融合
   - 其他不同Query特征：具体情况具体分析
