@@ -120,6 +120,7 @@ Retrieval-Augmented-Generation，在生成回答前，先从外部知识库中�
   - B. **LLM Reranker**：让 LLM 读 query 和每个候选（或候选列表）给相关性评分/排序。
 
 
+<img width="1465" height="630" alt="image" src="https://github.com/user-attachments/assets/f85a977c-c8bc-4324-8292-bc8ecab4dfd7" />
 
 
 
