@@ -43,10 +43,12 @@ Diffusion 工作原理一句话：先按固定过程把数据逐步加噪到近�
 
 只给问题(Prompt)和答案(Answer)，让模型自己学习推理过程。
 
-PPO/GRPO算法要用到**奖励模型 Reward Model**。
+PPO/GRPO算法要用到**奖励模型 Reward Model。** **偏好对齐方式有RLHF和RLAIF。**
 
 **强化学习的目标是:最大化奖励，同时不要偏离原始模型太远。**
 
+> 奖励模型可以有多种奖励函数的组合策略。
+> 以准确率奖励为基础，长度过长惩罚，步骤清晰奖励。
 
 在强化学习领域，PPO(Proximal Policy Optimization)是最经典的算法之一。PPO 通过限制策略更新的幅度，保证训练的稳定性。但是，PPO 在 LLM 训练中存在一些问题:需要训练 Value Model(价值模型)，增加了训练复杂度和显存占用;需要同时维护四个模型(Policy Model、Reference Model、Value Model、Reward Model)，工程实现复杂;训练不稳定，容易出现奖励崩塌或策略退化。
 
